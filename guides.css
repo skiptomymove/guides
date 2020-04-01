@@ -1,0 +1,108 @@
+/*Ulduar*/
+
+/*ICC*/
+/*Naxx*/
+/*TOGC*/
+/* Body */
+.center {text-align:center; color:#fff;font-weight:300;}
+.img-float{    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height:auto;
+    
+}
+.headings{font-weight:300; color:#fff;}
+.text-block-3 {
+    margin-top: 2rem;
+    display: block;
+}
+.block-2 {
+    display:block;
+    padding:1rem;
+}
+/* Class box */
+.imagebox {
+  padding:0rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.imagebox img {
+  opacity: 1;
+  max-width:100%;
+  transition: 0.5s opacity;
+  border-radius: 50%;
+  overflow:hidden;
+  width:50%;
+  height:50%;
+  
+  /* Opacity on empty guide */
+  opacity: 0.7;
+
+}
+.imagebox:hover img {
+  opacity: 1;
+}
+.bottom-pad {
+    display:block;
+    margin-bottom:2rem; 
+    padding:0;
+    
+}
+.Legend-guides { 
+    margin: 0 auto; 
+    width:100%; 
+    color:#919aa1; 
+    text-align:center; 
+    text-decoration:none; 
+    font-size:3.3rem;
+    -webkit-text-stroke-width: 0.05rem;
+    -webkit-text-stroke-color: #000;
+    font-weight:800;
+}
+/* Guide */
+.guide {
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.guide img {
+  background:white;
+  opacity: 1;
+  transition: 0.3s opacity;
+  height: auto;
+  max-width:100%;
+  border-radius:0.7rem;
+  padding:0.1rem;
+  background-color:rgba(0,0,0,0.2);
+  overflow:hidden;
+}
+.guide .guide-desc {
+  background-color:rgba(255,255,255,0.9);
+  bottom: 0px;
+  color: white;
+  font-size: 1.2em;
+  left:0.3rem;
+  right:0.5rem;
+  bottom:0.3rem;
+  padding: 10px 15px;
+  position: absolute;
+  transition: 0.5s padding;
+  text-align: center;
+  width: 50%;
+  visibility:hidden;
+}
+.guide:hover img {
+  opacity:0.8;
+  background-color:rgba(255,255,255,255);
+}
+.guide:hover .guide-desc {
+  padding-bottom: 2%;
+  background-color:rgba(255,255,255,0.9);
+    transition: 1s;
+  color:#000;
+  visibility:visible;
+}
